@@ -5,20 +5,21 @@
 }
 
 @font-face {
-    font-family: "Denim";
-    src: url('Denim-Regular.ttf') format(ttf);
-    font-weight: regular;
+    font-family: "GT-Pressura-Mono-Regular-Trial";
+    src: url('GT-Pressura-Mono-Regular-Trial.otf') format(otf);
 }
 
 body {
-    font-family: Denim;
+    font-family: "GT-Pressura-Mono-Regular-Trial";
     font-size: 2rem;
     color: white;
     background-color: black;
 }
 
-h1 {
-    font-family: Denim;
-    font-size: 2rem;
-    font-weight: regular;
+.text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

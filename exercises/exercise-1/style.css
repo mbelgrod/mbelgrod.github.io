@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+p .footnote {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}

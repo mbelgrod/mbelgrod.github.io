@@ -2,18 +2,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 @font-face {
-    font-family: "GT-Pressura-Mono-Regular-Trial";
-    src: url('GT-Pressura-Mono-Regular-Trial.otf') format(otf);
+    font-family: GT-Pressura-Mono;
+    src: url(GT-Pressura-Mono-Regular-Trial.otf) format(opentype);
 }
 
 body {
-    font-family: "GT-Pressura-Mono-Regular-Trial";
+    font-family: GT-Pressura-Mono;
     font-size: 2rem;
     color: white;
-    background-color: black;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: GT-Pressura-Mono;
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+}
+
+p a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+p a:hover {
+    color: aqua;
 }
 
 .text {

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Automatic Random Boxes Extension",
+  "version": "2.0",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

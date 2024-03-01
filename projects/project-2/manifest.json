@@ -1,7 +1,11 @@
 {
   "manifest_version": 3,
   "name": "SAVE! Dingbats Chrome Extension",
-  "version": "2.0",
+  "version": "1.0.0",
+  "description": "SAVE! Dingbats Chrome Extension",
+  "icons": {
+    "1": "icon.png"
+  },
   "permissions": [
     "tabs",
     "activeTab"
@@ -19,4 +23,6 @@
   "background": {
     "service_worker": "background.js"
   }
+
+  
 }

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   function generateRandomBoxes() {
-    const maxBoxCount = 300; // Maximum number of boxes
+    const maxBoxCount = 350; // Maximum number of boxes
     const animationDuration = 1; // Duration of the fade-in animation in seconds
     const intervalDelay = 100; // Delay between adding each box in milliseconds
   
@@ -81,13 +81,16 @@ document.addEventListener('DOMContentLoaded', function () {
         box.style.paddingRight = `1rem`;
         box.style.paddingBottom = `.2rem`;
       }
-  
-      // Trigger the fade-in animation
-      box.style.animation = `fadeIn ${animationDuration}s ease-out forwards`;
-  
-      document.body.appendChild(box);
-      currentBoxCount++;
-    }, intervalDelay);
+
+
+    // Add click event listener to delete the box
+    box.addEventListener('click', () => {
+      document.body.removeChild(box);
+    });
+
+    document.body.appendChild(box);
+    currentBoxCount++;
+  }, intervalDelay);
   }
 
 

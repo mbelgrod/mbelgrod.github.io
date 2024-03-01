@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: "Save";
-    src: url('Save.ttf') format('truetype');
+    src: url('https://mbelgrod.github.io/projects/project-2/Save.ttf') format('truetype');
 }
 
 .random-box {

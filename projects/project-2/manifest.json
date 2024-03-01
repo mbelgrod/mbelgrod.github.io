@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Automatic Random Boxes Extension",
+  "name": "SAVE! Dingbats Chrome Extension",
   "version": "2.0",
   "permissions": [
     "tabs",

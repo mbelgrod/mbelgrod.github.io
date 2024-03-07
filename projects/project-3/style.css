@@ -1,0 +1,43 @@
+/* style.css */
+@font-face {
+    font-family: "Denim";
+    src: url(Denim-Regular.ttf) format('truetype');
+}
+
+h1 {
+    font-family: 'Denim';
+    font-size: 130pt;
+    font-weight: normal;
+    line-height: .9em;
+}
+
+.draggable {
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+  }
+  
+  .draggable img {
+    height: 352px;
+    width: auto;
+  }
+
+  .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100vw;
+  }
+
+  #psychic-slice {
+    top: 10%;
+    left: 5%;
+  }
+
+  #goodbye {
+    top: 3%;
+    right: 10%;
+  }
+  

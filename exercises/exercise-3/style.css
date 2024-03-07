@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    color: rebeccapurple;
+    max-width: 80%;
+    margin: auto;
+}
+
+nav {
+    border: 1px solid red;
+    padding: 20px;
+    padding-top: 0px;
+    width: 200px;
+    margin-top: 25px;
+    position: fixed;
+    background-color: white;
+    right: 10%;
+}
+
+li {
+    list-style-type: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: red;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    display: block;
+    float: left;
+    max-width: 500px;
+    background-color: rebeccapurple;
+    padding: 50px;
+    margin: 20px 40px 20px 0px;
+}
+
+p .footnote {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.related {
+    background-color: rgb(224, 130, 255);
+}

@@ -32,12 +32,38 @@ h1 {
   }
 
   #psychic-slice {
-    top: 10%;
-    left: 5%;
+    top: 135px; left: 165px;
   }
 
   #goodbye {
-    top: 3%;
-    right: 10%;
+    top: 618px; left: -111px;
   }
   
+  #artist-book-contest{
+    top: 40px;
+    left: 51px;
+  }
+
+  #flowers {
+    style="top: 473px; left: 1112px;"
+  }
+
+  #mass-ornamentation{
+    top: -3px; left: 895px;
+  }
+
+  #business-card{
+    top: 579px; left: 799px;
+  }
+
+  #groundhog {
+    top: 376px; left: 394px;
+  }
+
+  #chair {
+    top: 32px; left: 1338px;
+  }
+
+  #flowers {
+    top: 425px; left: 1105px;
+  }

@@ -9,10 +9,6 @@ function dragElement(elmnt) {
     e = e || window.event;
     e.preventDefault();
 
-    // Bring the clicked element to the top
-    var highestZIndex = findHighestZIndex();
-    elmnt.style.zIndex = highestZIndex + 1;
-
     // get the mouse cursor position at startup:
     pos3 = e.clientX;
     pos4 = e.clientY;
@@ -33,6 +29,10 @@ function dragElement(elmnt) {
     // set the element's new position:
     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+
+    // Bring the clicked element to the top
+    var highestZIndex = findHighestZIndex();
+    elmnt.style.zIndex = highestZIndex;
   }
 
   function closeDragElement() {
@@ -48,8 +48,10 @@ function dragElement(elmnt) {
     elements.forEach(function (element) {
       var zIndex = parseInt(window.getComputedStyle(element).zIndex);
       if (!isNaN(zIndex) && zIndex > highestZIndex) {
-        highestZIndex = zIndex;
+        highestZIndex = zIndex + 1;
       }
     });
+
+    return highestZIndex;
   }
-} 
+}
